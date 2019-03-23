@@ -78,7 +78,7 @@ g.body.append('edge[style=invis];   A->b0;  C->b3;  ')
 #uncomment this to see the dot source code
 #print(g.source)
 
-#To publish changes into the pdf
+#To publish changes into the png
 g.view()
 
 #uncomment this if you want to open it automatically

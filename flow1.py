@@ -28,9 +28,9 @@ g.node('H',label='~~\n~~',xlabel='.bam',shape='note')
 
 
 #inputs
-g.edge('F', 'A') #input to step 1
-g.edge('G', 'B') #input to step 2
-g.edge('H', 'E') #input to step 5
+g.edge('F', 'A', style='solid') #input to step 1
+g.edge('G', 'B', style='dotted') #input to step 2
+g.edge('H', 'E', style='dotted') #input to step 5
 
 
 # Edges for steps 1-5

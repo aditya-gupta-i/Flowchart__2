@@ -25,9 +25,9 @@ _files" color=grey55 style=filled]
 ~~" shape=note xlabel=".fastq"]
 	H [label="~~
 ~~" shape=note xlabel=".bam"]
-	F -> A
-	G -> B
-	H -> E
+	F -> A [style=solid]
+	G -> B [style=dotted]
+	H -> E [style=dotted]
 	A -> B
 	B -> C
 	C -> D
